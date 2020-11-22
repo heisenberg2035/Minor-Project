@@ -11,7 +11,6 @@ import plotly.express as px
 from PIL import Image
 def main():
 	st.sidebar.title('Minor Project')
-	st.sidebar.header('CSE-II P04')
 	nav = st.sidebar.radio('',['Home','About',"Technologies Used","Conclusion"])
 	if nav == 'Home':
 		choice = st.sidebar.radio('Choose any parameter',['Visualization','Comparison between errors','Comparison between Test Data','Comparison between Prediction Data'])
