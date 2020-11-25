@@ -12,6 +12,8 @@ from PIL import Image
 def main():
 	st.sidebar.title('Minor Project')
 	st.sidebar.title('Parth Rustagi')
+	st.sidebar.title('50296403117')
+	st.sidebar.title('7-I-9')
 	nav = st.sidebar.radio('',['Home','About',"Technologies Used","Conclusion"])
 	if nav == 'Home':
 		choice = st.sidebar.radio('Choose any parameter',['Visualization','Comparison between errors','Comparison between Test Data','Comparison between Prediction Data'])
